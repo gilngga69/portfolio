@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAC8qJEhvKiRnryokeO8qJH8vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvKiRYbyokf28qJH/vKiR/7yokeO8qJGevKiRIQAAAAAAAAAAAAAAAAAAAAA=">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <svg class="camera-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                        <circle cx="12" cy="13" r="4"/>
+                    </svg>
+                    <span>Raihan's Portfolio</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#work">Works</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Designer & Developer</h1>
+                <p class="hero-description">Creating thoughtful digital experiences and products that connect with people.</p>
+            </div>
+        </section>
+
+        <section id="work" class="work">
+            <div class="container">
+                <h2>Art Gallery</h2>
+                <div class="projects-grid">
+                    <div class="project-card" data-year="2024" data-description="The word QUIET dominates the scene, urging viewers to confront the profound yet often overlooked value of silence. The streetlights, casting a faint glow, suggest that even in darkness or isolation, there is guidance, perhaps from intuition, reason, or the quiet brilliance of the mind.">
+                        <div class="project-image">
+                            <img src="images/project_one.jpg" alt="Project 1">
+                        </div>
+                        <h3>Poster Design</h3>
+                        <p>The Solitary Path to Resonance</p>
+                    </div>
+                    <div class="project-card" data-year="2024" data-description="The central themes of denouement (resolution) and redolent (evocative presence) remind us of the cyclical nature of challenges and triumphs. The conference setting in the image, where individuals gather and learn, symbolizes a shared human experience—the collective effort to seek knowledge, meaning, and purpose.">
+                        <div class="project-image">
+                            <img src="images/project_two.jpg" alt="Project 2">
+                        </div>
+                        <h3>Typography Artwork</h3>
+                        <p>Resilience in the Symphony of Subjectivity</p>
+                    </div>
+                    <div class="project-card" data-year="2024" data-description="The remnants of communal rituals, captured in the fleeting scent, emphasize the significance of ephemeral moments that define human connection. This interplay between what is present and what remains—what is immediate and what is remembered—reflects the duality of existence.
+                    ">
+                        <div class="project-image">
+                            <img src="images/project_three.jpg" alt="Project 3">
+                        </div>
+                        <h3>Typography Artwork</h3>
+                        <p>The Threshold of Memory and Possibility</p>
+                    </div>
+                    <div class="project-card" data-year="2024" data-description="The solitary image of a cat by a window capture themes of mindfulness and introspection. It suggests that true contentment arises not from material progress but from appreciating life's subtle, transient moments—like sunlight filtering through the woods or the silent companionship of a cat gazing out.">
+                        <div class="project-image">
+                            <img src="images/project_four.jpg" alt="Project 4">
+                        </div>
+                        <h3>Poster Design</h3>
+                        <p>Harmony in the Heart of the Woods</p>
+                    </div>
+                    <div class="project-card" data-year="2024" data-description="When I was given an assignment to make a story by my lecturer, I made this story and when it was time to submit the assignment, I decided to make my story into a website and then give the website link of my story to my lecturer.">
+                        <div class="project-image">
+                            <img src="images/project_five.jpg" alt="Project 5">
+                        </div>
+                        <h3>College Assignment</h3>
+                        <p>Edge of Infinity</p>
+                    </div>
+                    <div class="project-card" data-year="2024" data-description="The final project of the graphic design course, I made a website in fulfilling one of the requirements to pass 3rd semester. 
+                    A website design intended for yoga enthusiasts and my college friend happened to be a yoga enthusiast too, so I helped him in making a website design. The website is https://gilngga69.github.io/sabrina-web/yoga.html">
+                        <div class="project-image">
+                            <img src="images/project_six.jpg" alt="Project 6">
+                        </div>
+                        <h3>College Assignment</h3>
+                        <p>Sabrina's Yoga</p>
+                    </div>
+                    <div class="project-card" data-year="2024" data-description="The accompanying texts—addressing heightened sensitivity, the struggle with alienation, and the pursuit of creativity—evoke a phenomenological perspective. They emphasize the richness of experiencing the world not as a passive observer but as an active creator of meaning, even in solitude.
+                    This artwork invites viewers to reassess solitude not as emptiness but as a space where individuality and creativity thrive.">
+                        <div class="project-image">
+                            <img src="images/project_seven.jpg" alt="Project 7">
+                        </div>
+                        <h3>Typography Artwork</h3>
+                        <p>A Canvas of Flourishing Thoughts</p>
+                    </div>
+                    <div class="project-card" data-year="2024" data-description="The two individuals holding microphones signify dialogue and storytelling. From a philosophical perspective, this represents the intersubjective nature of human experience—how meaning is co-constructed through conversations and shared narratives. The microphones also symbolize the power of words and communication to uncover truths, bridge divides, and construct new understandings, echoing the Socratic tradition of questioning and dialogue.">
+                        <div class="project-image">
+                            <img src="images/project_eight.jpg" alt="Project 8">
+                        </div>
+                        <h3>Poster Design</h3>
+                        <p>Echoes on Infinite Tracks</p>
+                    </div>
+                    <div class="project-card" data-year="2024" data-description="The text reflects the philosophy of moral virtues as discussed by Aristotle, emphasizing the idea that true gentility lies in action—small acts of kindness, thoughtful gestures, and the ability to genuinely listen and care. This aligns with the Aristotelian ideal of eudaimonia (flourishing), where human fulfillment is achieved through the cultivation of virtuous habits.">
+                        <div class="project-image">
+                            <img src="images/project_eleven.jpg" alt="Project 9">
+                        </div>
+                        <h3>Typography Artwork</h3>
+                        <p>The Wellspring of Gentility</p>
+                    </div>
+                    <div class="project-card" data-year="2024" data-description="he urban landscape, featuring the Miyakazaka street sign and a traffic light against an open sky, serves as a metaphor for decision-making and the crossroads we encounter in life's journey. It reflects the duality of structure (urban environment) and freedom (vast blue sky), suggesting that even in a regulated, fast-paced world, there is space for intentional and calming practices.">
+                        <div class="project-image">
+                            <img src="images/project_twelve.jpg" alt="Project 10">
+                        </div>
+                        <h3>Typography Artwork</h3>
+                        <p>Urban Compass</p>
+                    </div>
+                    <div class="project-card" data-year="2025" data-description="A poster to celebrate Indonesia's 79th Independence Day, this poster was distributed at the regional level. The intersection of tradition and modernity seen in the attire, abstract patterns, and event details symbolizes the balancing act between preserving cultural roots and embracing progress.">
+                        <div class="project-image">
+                            <img src="images/project_nine.png" alt="Project 11">
+                        </div>
+                        <h3>Poster Design</h3>
+                        <p>Independence Day Celebration</p>
+                    </div>
+                    <div class="project-card" data-year="2025" data-description="A competition organized by Burger Bangor, gratitude box design competition">
+                        <div class="project-image">
+                            <img src="images/project_ten.png" alt="Project 12">
+                        </div>
+                        <h3>Art Competition</h3>
+                        <p>Burger Bangor Art Competition</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <h2>About Me</h2>
+                    <p>I'm a designer and beginner developer passionate about creating meaningful digital experiences. With a background in Management, I focus on crafting intuitive, accessible, and visually appealing products.</p>
+                    <p>My approach combines strategic thinking with technical expertise to solve complex problems and deliver exceptional results.</p>
+                    <div class="skills">
+                        <div class="skill-category">
+                            <h3>Design</h3>
+                            <ul>
+                                <li>UX/UI Design</li>
+                                <li>Interaction Design</li>
+                                <li>Visual Design</li>
+                                <li>Prototyping</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Development</h3>
+                            <ul>
+                                <li>HTML/CSS</li>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                                <li>Responsive Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="contact" class="contact" style="display: block !important; visibility: visible !important; opacity: 1 !important; position: relative !important; z-index: 9999 !important; background-color: var(--light-gray) !important; margin-top: 40px !important;">
+        <div class="container" style="position: relative !important; z-index: 10000 !important;">
+            <h2>Contact Me</h2>
+            <p>Let's work together on your next project</p>
+            
+            <div class="simple-contact" style="position: relative !important; z-index: 10001 !important;">
+                <div class="contact-card" style="position: relative !important; z-index: 10002 !important; background-color: var(--card-bg) !important; color: var(--text-color) !important;">
+                    <h3>Send me a message</h3>
+                    <form id="simple-contact-form" style="position: relative !important; z-index: 10003 !important;">
+                        <input type="text" placeholder="Your Name" required style="display: block !important; width: 100% !important; margin-bottom: 15px !important; background-color: var(--background-color) !important; color: var(--text-color) !important; border: 1px solid var(--border-color) !important;">
+                        <input type="email" placeholder="Your Email" required style="display: block !important; width: 100% !important; margin-bottom: 15px !important; background-color: var(--background-color) !important; color: var(--text-color) !important; border: 1px solid var(--border-color) !important;">
+                        <textarea placeholder="Your Message" rows="4" required style="display: block !important; width: 100% !important; margin-bottom: 15px !important; background-color: var(--background-color) !important; color: var(--text-color) !important; border: 1px solid var(--border-color) !important;"></textarea>
+                        <button type="submit" style="display: block !important; width: 100% !important; margin-bottom: 20px !important; background-color: var(--primary-color) !important; color: #ffffff !important; font-weight: 500 !important;">Send Message</button>
+                    </form>
+                    
+                    <div class="contact-info" style="border-top: 1px solid var(--border-color) !important; padding-top: 20px; margin-top: 10px;">
+                        <div class="contact-direct">
+                            <h4 style="color: var(--primary-color) !important;">Contact directly</h4>
+                            <div class="contact-method email">
+                                <h4>Email:</h4>
+                                <p><a href="mailto:raihanfadhillah@gmail.com">raihanfadhillah@gmail.com</a></p>
+                            </div>
+                            <div class="contact-method location">
+                                <h4>Indonesia</h4>
+                                <p>Jakarta</p>
+                            </div>
+                            <div class="social-simple" style="margin-top: 15px;">
+                                <a href="https://www.linkedin.com/in/raihan-fadhillah-800389287/" target="_blank" class="social-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/gilngga69" target="_blank" class="social-icon">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.instagram.com/ligondese/" target="_blank" class="social-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Ligondese. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <div id="project-modal" class="project-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-image-container">
+                <img id="modal-image" src="" alt="Full project view">
+            </div>
+            <div class="modal-details">
+                <div class="modal-metadata">
+                    <span id="modal-category">CATEGORY</span>
+                    <span id="modal-date">YEAR</span>
+                </div>
+                <h3 id="modal-title">Project Title</h3>
+                <p id="modal-description">Project description goes here. This section will provide details about the project, including the technologies used, challenges overcome, and the overall process and results.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Debug script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Debug: DOMContentLoaded fired');
+            
+            const cards = document.querySelectorAll('.project-card');
+            console.log('Debug: Found', cards.length, 'project cards');
+            
+            cards.forEach((card, index) => {
+                console.log('Debug: Adding click handler to card', index);
+                card.addEventListener('click', function() {
+                    console.log('Debug: Card clicked:', index);
+                    const img = this.querySelector('img');
+                    const title = this.querySelector('h3');
+                    const category = this.querySelector('p');
+                    
+                    console.log('Debug: Image source:', img ? img.src : 'not found');
+                    console.log('Debug: Title:', title ? title.textContent : 'not found');
+                    console.log('Debug: Category:', category ? category.textContent : 'not found');
+                    
+                    const modal = document.getElementById('project-modal');
+                    if (modal) {
+                        console.log('Debug: Modal found, opening...');
+                        if (img) document.getElementById('modal-image').src = img.src;
+                        if (title) document.getElementById('modal-title').textContent = title.textContent.toUpperCase();
+                        if (category) document.getElementById('modal-category').textContent = category.textContent.toUpperCase();
+                        document.getElementById('modal-date').textContent = '2023';
+                        
+                        modal.classList.add('show');
+                        document.body.style.overflow = 'hidden';
+                    } else {
+                        console.log('Debug: Modal not found!');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
